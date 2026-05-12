@@ -1,0 +1,3 @@
+shell_executor:
+  on_load: ShellExecutor 加载完成！
+  on_unload: 已卸载 ShellExecutor。

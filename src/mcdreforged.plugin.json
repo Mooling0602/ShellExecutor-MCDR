@@ -1,0 +1,17 @@
+{
+    "id": "shell_executor",
+    "version": "0.0.1",
+    "name": "ShellExecutor",
+    "description": {
+        "en_us": "Quickly execute shell commands in MCDR console or in the game.",
+        "zh_cn": "快速的在 MCDR 控制台或游戏内执行 shell 命令。"
+    },
+    "author": "Mooling0602",
+    "link": "https://github.com/Mooling0602/ShellExecutor-MCDR",
+    "dependencies": {
+        "mcdreforged": ">=2.14.1"
+    },
+    "resources": [
+        "lang"
+    ]
+}

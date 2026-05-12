@@ -1,0 +1,9 @@
+[project]
+name = "shell-executor-mcdr"
+version = "0.0.1"
+description = "Quickly execute shell commands in MCDR console or in the game."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mcdreforged>=2.15.7",
+]
