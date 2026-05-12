@@ -14,3 +14,6 @@ uv.lock
 
 # MCDReforged
 *.mcdr
+
+# Reasonix
+.reasonix/

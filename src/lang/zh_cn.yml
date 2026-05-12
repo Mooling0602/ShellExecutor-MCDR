@@ -1,3 +1,4 @@
 shell_executor:
   on_load: ShellExecutor 加载完成！
   on_unload: 已卸载 ShellExecutor。
+  permission_denied: 你没有执行此命令的权限！
