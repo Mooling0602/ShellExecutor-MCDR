@@ -1,3 +1,7 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "shell-executor-mcdr"
 version = "0.0.1"
@@ -7,3 +11,9 @@ requires-python = ">=3.11"
 dependencies = [
     "mcdreforged>=2.15.7",
 ]
+
+[dependency-groups]
+dev = ["ruff>=0.15.12", "ty>=0.0.33"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/shell_executor"]
