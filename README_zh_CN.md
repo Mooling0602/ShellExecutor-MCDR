@@ -1,3 +1,6 @@
+- 中文（简体）
+- [English](README.md)
+
 # ShellExecutor-MCDR
 在 MCDR 控制台或游戏中快速执行 shell 命令。
 > 需要 MCDR 权限等级达到 4 才能使用。

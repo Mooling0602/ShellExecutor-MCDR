@@ -1,3 +1,6 @@
+- English
+- [中文（简体）](README_zh_CN.md)
+
 # ShellExecutor-MCDR
 Quickly execute shell commands in MCDR console or in the game.
 > Require MCDR permission level reach 4 to use.
