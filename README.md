@@ -15,4 +15,4 @@ Default alias for `!!shell` is `$`, install [Command Aliases](https://mcdreforge
 - Support Linux shell at present, the plugin may not work properly on other operating systems.
 > Test on Windows is welcome, feel free to submit an issue if you find any problem.
 
-- Do not execute TUI binaries in ShellExecutor, it breaks rendering the MCDR console and even freezes it. I've no idea to solve this problem at present, if you have any solution, please submit an issue or a pull request, thanks.
+- Do not execute TUI binaries in ShellExecutor, it may break rendering the MCDR console and even freezes it. I've no idea to solve this problem at present, if you have any solution, please submit an issue or a pull request, thanks.
