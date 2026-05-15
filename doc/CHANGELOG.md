@@ -8,6 +8,6 @@ Changelog contents for parsing in CI.
 
 - feat: command system and process control
 
-> 首个插件版本，实现了命令系统和进程控制
+> 首个插件版本，实现了命令系统和进程控制。
 
 **#full_changelog**
