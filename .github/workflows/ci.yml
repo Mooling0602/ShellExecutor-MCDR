@@ -108,7 +108,7 @@ jobs:
         run: rm -f ./*.mcdr
 
       - name: Pack plugin
-        run: uv run mcdreforged pack
+        run: uv run mcdreforged pack -i src
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
