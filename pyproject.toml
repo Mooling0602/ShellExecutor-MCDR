@@ -17,7 +17,7 @@ dev = ["ruff>=0.15.12", "ty>=0.0.33"]
 
 [tool.hatch.version]
 source = "regex"
-path = "mcdreforged.plugin.json"
+path = "src/mcdreforged.plugin.json"
 pattern = '"version"\s*:\s*"(?P<version>[^"]+)"'
 
 [tool.hatch.build.targets.wheel]
