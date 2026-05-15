@@ -2,3 +2,11 @@ shell_executor:
   on_load: ShellExecutor 加载完成！
   on_unload: 已卸载 ShellExecutor。
   permission_denied: 你没有执行此命令的权限！
+  process_exit_code: "[ShellExecutor] 进程退出，返回码 {}"
+  process_timeout: "[ShellExecutor] 进程执行超时，已强制终止"
+  process_error: "[ShellExecutor] 无法捕获进程输出"
+  process_already_running: "[ShellExecutor] 已有进程在运行中，请等待或使用 '!!shell stop'"
+  process_status_running: "[ShellExecutor] 当前有进程正在运行"
+  process_status_idle: "[ShellExecutor] 当前无进程运行"
+  process_stopped: "[ShellExecutor] 进程已终止"
+  no_process_running: "[ShellExecutor] 没有正在运行的进程可终止"

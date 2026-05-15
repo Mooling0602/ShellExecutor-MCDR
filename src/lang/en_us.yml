@@ -2,3 +2,11 @@ shell_executor:
   on_load: ShellExecutor is loaded.
   on_unload: ShellExecutor is unloaded.
   permission_denied: You are not allowed to execute this command!
+  process_exit_code: "[ShellExecutor] Process exited with code {}"
+  process_timeout: "[ShellExecutor] Process timed out and was killed"
+  process_error: "[ShellExecutor] Failed to capture process output"
+  process_already_running: "[ShellExecutor] A process is already running, please wait or use '!!shell stop'"
+  process_status_running: "[ShellExecutor] A process is currently running"
+  process_status_idle: "[ShellExecutor] No process is running"
+  process_stopped: "[ShellExecutor] Process has been stopped"
+  no_process_running: "[ShellExecutor] No process is running to stop"
