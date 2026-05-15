@@ -46,7 +46,7 @@ jobs:
       - name: Build plugin
         run: |
           rm -f ./*.mcdr
-          uv run mcdreforged pack
+          uv run mcdreforged pack -i src
 
       - name: Prepare release notes
         shell: bash
